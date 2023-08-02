@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="StyleSheet" href="form.css">
+</head>
+<body>
+    <form class="form">
+      <h2 style="margin-left: 10px;">Student Registration Form</h2>
+    
+   
+    <div  class="space">
+    Name:<span class="req">*</span>
+        <input class="name" type="text" id="firstId" value="" required>
+    </div><br>
+    <div  class="space">
+        USN:<span class="req">* </span>
+            <input class="usn" type="text" id="usnId" value="" required>
+        </div><br>
+    <div class="space">
+    Date of Birth:
+    <input type="date" id="dateId" value="" style="margin-left: 40px;">
+   </div><br>
+    <div class="space">
+    Gender: 
+        <input type="radio"    id="maleId" name="gender" value="Male"><label for="male">Male</label>
+        <input type="radio"  id="femaleId" name="gender" value="Female"><label for="female">Female</label>
+    </div><br>
+    <div class="space">
+    Email:<span class="req">*</span>
+        <input class="email" type="email" id="mailId" value="" style="margin-left: 60px;" required>
+    </div><br>
+  
+    <div class="space">
+    Username:<span class="req">*</span>
+       <input class="username" type="text" id="userId" value="" style="margin-left: 50px;" required>
+    </div><br>
+    <div class="space">
+    Password:
+        <input class="pass" type="text" id="passId" value="" style="margin-left: 60px;" required>
+    </div><br>
+    <div class="space">
+    Confirm Password:
+        <input class="conpass" type="text" id="confId" value="" required>
+    </div><br>
+    <div class="course">
+            <label for="course">Course:</label>
+            <select id="course" name="course" style="margin-left: 60px;" required>
+                <option value="">Select a course</option>
+                <option value="B.E>">B.E.</option>
+                <option value="M-Tech">M-Tech</option>
+                <option value="B.sc">B.sc</option>
+                <option value="BCA">BCA</option>
+                <option value="Diploma">Diploma</option>
+            </select>
+    </div><br>
+    <div id="button">
+        <input id="button1" type="submit" id="buttonId" value="Register">
+        <input id="button2" type="submit" id="buttonId" value="Cancel">
+    </div>
+
+    </form>
+</body>
+</html>

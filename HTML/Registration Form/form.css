@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(64, 59, 59);
+    color: rgba(223, 5, 5, 0.941);
+}
+
+form{
+    background-color: rgb(47, 151, 146);
+    border-radius: 10px;
+    height: 425px;
+    width: 370px;
+    margin-left:580px ;
+    margin-right: 350px;   
+}
+.req{
+    color: rgb(199, 219, 16);
+}
+.space{
+    margin-left: 20px;
+}
+.name{
+    border: 1px solid;
+    margin-left: 40px;
+   }
+
+   .usn{
+    border: 1px solid;
+    margin-left: 40px;
+   }
+   .username{
+       border: 1px solid;
+       margin-left: 47px;
+      }
+      .pass{
+       border: 1px solid;
+       margin-left: 48px;
+      }
+      .conpass{
+       border: 1px solid;
+      }
+      .email{
+       border: 1px solid;
+       margin-left: 48px;
+      }
+      .course{
+       margin-left: 25px;
+      }
+#button1{
+    margin-left: 90px;
+   background-color: rgb(57, 203, 17);
+   border: none;
+   cursor: pointer;
+   transition: transform 0.2s ease-in-out;
+}
+#button1:hover{
+    transform: translate(5px);
+}
+#button2{
+    margin-left: 40px;
+    background-color: rgb(55, 196, 12);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+ }
+ #button2:hover{
+     transform: translate(5px);
+ }
+
